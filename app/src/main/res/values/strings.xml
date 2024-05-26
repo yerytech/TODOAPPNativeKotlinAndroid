@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TodoApp</string>
+    <string name="todoCategories">Categories</string>
+    <string name="Business">Business</string>
+    <string name="Personal">Personal</string>
+    <string name="Others">Others</string>
+    <string name="Todo">Todo</string>
+
+
+</resources>

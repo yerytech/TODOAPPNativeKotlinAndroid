@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+
+<!--    TodoColors-->
+    <color name="backgroundTodoApp">#31315B</color>
+    <color name="backgroundCardTodoInCompleted">#44446B</color>
+    <color name="floatingBtnColor">#3D79B1</color>
+    <color name="isCompletedCheckColor">#D7F9D1</color>
+    <color name="isCompletedCardColor">#282851</color>
+    <color name="textColor">#E3E3E3</color>
+    <color name="backgroundItem">#282851</color>
+    <color name="BusinessCategory">#F65F21</color>
+    <color name="PersonalCategory">#860425</color>
+    <color name="OtherCategory">#FFC300</color>
+
+</resources>
