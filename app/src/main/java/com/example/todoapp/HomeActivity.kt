@@ -88,13 +88,22 @@ class HomeActivity : AppCompatActivity() {
     }
 
     private fun initUI() {
-        categoriesAdapters = CategoriesAdapters(categories)
+        categoriesAdapters =
+            CategoriesAdapters(categories) { position -> updateCategories(position) }
         rvCategories.layoutManager =
             LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
         rvCategories.adapter = categoriesAdapters
-        taskAdapter = TaskAdapter(tasks, ){ onItemSelected(it) }
+        taskAdapter = TaskAdapter(tasks) { onItemSelected(it) }
         rvtasks.layoutManager = LinearLayoutManager(this)
         rvtasks.adapter = taskAdapter
+    }
+
+    private fun updateCategories(position: Int) {
+
+        categories[position].isSelected = !categories[position].isSelected
+        categoriesAdapters.notifyItemChanged(position)
+        updateTask()
+
     }
 
     private fun onItemSelected(position: Int) {
@@ -104,6 +113,10 @@ class HomeActivity : AppCompatActivity() {
 
     @SuppressLint("NotifyDataSetChanged")
     private fun updateTask() {
+        val selectedCategories: List<TaskCategory> = categories.filter { it.isSelected }
+        val newTasks = tasks.filter { selectedCategories.contains(it.category) }
+        taskAdapter.task = newTasks
         taskAdapter.notifyDataSetChanged()
+
     }
 }
