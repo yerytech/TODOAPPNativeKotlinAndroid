@@ -1,9 +1,9 @@
 ﻿# TODOAPPNativeKotlinAndroid
-[url=https://postimg.cc/HVvPp1H4][img]https://i.postimg.cc/HVvPp1H4/Screenshot-20240526-235214.png[/img][/url]
+[![Screenshot-20240526-235214.png](https://i.postimg.cc/jSRV4RF9/Screenshot-20240526-235214.png)](https://postimg.cc/HVvPp1H4)
 
-[url=https://postimg.cc/rDdZsZw6][img]https://i.postimg.cc/rDdZsZw6/Screenshot-20240526-235241.png[/img][/url]
+[![Screenshot-20240526-235241.png](https://i.postimg.cc/SxdBZw0K/Screenshot-20240526-235241.png)](https://postimg.cc/rDdZsZw6)
 
-[url=https://postimg.cc/fV6297VV][img]https://i.postimg.cc/fV6297VV/Screenshot-20240526-235250.png[/img][/url]
+[![Screenshot-20240526-235250.png](https://i.postimg.cc/Jhh9SPm5/Screenshot-20240526-235250.png)](https://postimg.cc/fV6297VV)
 
 
 ## Descripción
