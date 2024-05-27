@@ -5,6 +5,9 @@
     <string name="Personal">Personal</string>
     <string name="Others">Others</string>
     <string name="Todo">Todo</string>
+    <string name="todoDialog">Add task</string>
+    <string name="TextBtnAdd">Todo</string>
+    <string name="addTask">Add TAsk</string>
 
 
 </resources>
